@@ -34,8 +34,8 @@ namespace Tyuiu.SolievAH.Sprint6.Task0.V30
             this.textBoxTask_SAH = new System.Windows.Forms.TextBox();
             this.pictureBox_SAH = new System.Windows.Forms.PictureBox();
             this.groupBoxInputData_SAH = new System.Windows.Forms.GroupBox();
-            this.textBoxVarX_SAH = new System.Windows.Forms.TextBox();
             this.labelInputData_SAH = new System.Windows.Forms.Label();
+            this.textBoxVarX_SAH = new System.Windows.Forms.TextBox();
             this.groupBoxOutPutData_SAH = new System.Windows.Forms.GroupBox();
             this.labelResult_SAH = new System.Windows.Forms.Label();
             this.textBoxResult_SAH = new System.Windows.Forms.TextBox();
@@ -87,13 +87,6 @@ namespace Tyuiu.SolievAH.Sprint6.Task0.V30
             this.groupBoxInputData_SAH.TabStop = false;
             this.groupBoxInputData_SAH.Text = "Ввод Данных";
             // 
-            // textBoxVarX_SAH
-            // 
-            this.textBoxVarX_SAH.Location = new System.Drawing.Point(6, 43);
-            this.textBoxVarX_SAH.Name = "textBoxVarX_SAH";
-            this.textBoxVarX_SAH.Size = new System.Drawing.Size(100, 20);
-            this.textBoxVarX_SAH.TabIndex = 0;
-            // 
             // labelInputData_SAH
             // 
             this.labelInputData_SAH.AutoSize = true;
@@ -102,6 +95,13 @@ namespace Tyuiu.SolievAH.Sprint6.Task0.V30
             this.labelInputData_SAH.Size = new System.Drawing.Size(84, 13);
             this.labelInputData_SAH.TabIndex = 1;
             this.labelInputData_SAH.Text = "Переменная Х:";
+            // 
+            // textBoxVarX_SAH
+            // 
+            this.textBoxVarX_SAH.Location = new System.Drawing.Point(6, 43);
+            this.textBoxVarX_SAH.Name = "textBoxVarX_SAH";
+            this.textBoxVarX_SAH.Size = new System.Drawing.Size(100, 20);
+            this.textBoxVarX_SAH.TabIndex = 0;
             // 
             // groupBoxOutPutData_SAH
             // 
@@ -163,7 +163,7 @@ namespace Tyuiu.SolievAH.Sprint6.Task0.V30
             this.Controls.Add(this.pictureBox_SAH);
             this.Controls.Add(this.groupBoxTask_SAH);
             this.Name = "FormMain";
-            this.Text = "Спринт6 | Таск 0 | Вариант 30 | Солиев А.Х.";
+            this.Text = "Спринт 6 | Таск 0 | Вариант 30 | Солиев А.Х.";
             this.groupBoxTask_SAH.ResumeLayout(false);
             this.groupBoxTask_SAH.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_SAH)).EndInit();
