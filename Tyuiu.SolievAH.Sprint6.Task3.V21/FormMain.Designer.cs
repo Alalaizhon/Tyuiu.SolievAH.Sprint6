@@ -31,8 +31,8 @@ namespace Tyuiu.SolievAH.Sprint6.Task3.V21
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain_SAH));
             this.groupBoxTask_SAH = new System.Windows.Forms.GroupBox();
-            this.dataGridViewMatrix_SAH = new System.Windows.Forms.DataGridView();
             this.textBoxTask_SAH = new System.Windows.Forms.TextBox();
+            this.dataGridViewMatrix_SAH = new System.Windows.Forms.DataGridView();
             this.groupBoxOutput_SAH = new System.Windows.Forms.GroupBox();
             this.labelResult_SAH = new System.Windows.Forms.Label();
             this.buttonHelp_SAH = new System.Windows.Forms.Button();
@@ -52,15 +52,6 @@ namespace Tyuiu.SolievAH.Sprint6.Task3.V21
             this.groupBoxTask_SAH.TabStop = false;
             this.groupBoxTask_SAH.Text = "Условие";
             // 
-            // dataGridViewMatrix_SAH
-            // 
-            this.dataGridViewMatrix_SAH.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewMatrix_SAH.Location = new System.Drawing.Point(9, 39);
-            this.dataGridViewMatrix_SAH.Name = "dataGridViewMatrix_SAH";
-            this.dataGridViewMatrix_SAH.RowHeadersVisible = false;
-            this.dataGridViewMatrix_SAH.Size = new System.Drawing.Size(309, 297);
-            this.dataGridViewMatrix_SAH.TabIndex = 1;
-            // 
             // textBoxTask_SAH
             // 
             this.textBoxTask_SAH.Location = new System.Drawing.Point(6, 19);
@@ -70,6 +61,16 @@ namespace Tyuiu.SolievAH.Sprint6.Task3.V21
             this.textBoxTask_SAH.Size = new System.Drawing.Size(337, 141);
             this.textBoxTask_SAH.TabIndex = 0;
             this.textBoxTask_SAH.Text = resources.GetString("textBoxTask_SAH.Text");
+            // 
+            // dataGridViewMatrix_SAH
+            // 
+            this.dataGridViewMatrix_SAH.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewMatrix_SAH.ColumnHeadersVisible = false;
+            this.dataGridViewMatrix_SAH.Location = new System.Drawing.Point(9, 39);
+            this.dataGridViewMatrix_SAH.Name = "dataGridViewMatrix_SAH";
+            this.dataGridViewMatrix_SAH.RowHeadersVisible = false;
+            this.dataGridViewMatrix_SAH.Size = new System.Drawing.Size(309, 297);
+            this.dataGridViewMatrix_SAH.TabIndex = 1;
             // 
             // groupBoxOutput_SAH
             // 
