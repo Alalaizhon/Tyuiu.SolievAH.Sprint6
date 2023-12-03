@@ -49,7 +49,7 @@ namespace Tyuiu.SolievAH.Sprint6.Task3.V21
 
         private void buttonHelp_SAH_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Таск 2 выполнил студент группы СМАРТб-23-1 Солиев Алижон Хотамжонович", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Таск 3 выполнил студент группы СМАРТб-23-1 Солиев Алижон Хотамжонович", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void FormMain_SAH_Load(object sender, EventArgs e)
