@@ -30,8 +30,8 @@ namespace Tyuiu.SolievAH.Sprint6.Task2.V12
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.groupBoxTask_SAH = new System.Windows.Forms.GroupBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.textBoxTask_SAH = new System.Windows.Forms.TextBox();
@@ -148,15 +148,15 @@ namespace Tyuiu.SolievAH.Sprint6.Task2.V12
             // 
             // chartFunction_SAH
             // 
-            chartArea3.Name = "ChartArea1";
-            this.chartFunction_SAH.ChartAreas.Add(chartArea3);
+            chartArea1.Name = "ChartArea1";
+            this.chartFunction_SAH.ChartAreas.Add(chartArea1);
             this.chartFunction_SAH.Location = new System.Drawing.Point(133, 36);
             this.chartFunction_SAH.Name = "chartFunction_SAH";
-            series3.ChartArea = "ChartArea1";
-            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series3.IsVisibleInLegend = false;
-            series3.Name = "Series1";
-            this.chartFunction_SAH.Series.Add(series3);
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series1.IsVisibleInLegend = false;
+            series1.Name = "Series1";
+            this.chartFunction_SAH.Series.Add(series1);
             this.chartFunction_SAH.Size = new System.Drawing.Size(283, 278);
             this.chartFunction_SAH.TabIndex = 2;
             this.chartFunction_SAH.Text = "chart1";
@@ -230,6 +230,7 @@ namespace Tyuiu.SolievAH.Sprint6.Task2.V12
             this.Controls.Add(this.groupBoxOutput_SAH);
             this.Controls.Add(this.groupBoxInput_SAH);
             this.Controls.Add(this.groupBoxTask_SAH);
+            this.MaximizeBox = false;
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Спринт 6 | Таск 2 | Вариант 12 | Солиев А.Х.";

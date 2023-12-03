@@ -117,53 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-</value>
+  <data name="textBoxTask_SAH.Text" xml:space="preserve">
+    <value>Дан массив 5 на 5 элементов. 
+  26 -15   7   1  -4
+  14  26  22  17  27
+  -8  31  22  34   4
+ -18  16  -2  16  27
+   5   2  -4  16  15
+Выполнить сортировку по возрастанию в первом столбце.
+Результат вывести в DataGridView.</value>
   </data>
-  <metadata name="X.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Fx.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
 </root>
