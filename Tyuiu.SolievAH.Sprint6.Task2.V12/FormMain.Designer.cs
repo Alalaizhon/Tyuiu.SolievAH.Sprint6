@@ -230,6 +230,7 @@ namespace Tyuiu.SolievAH.Sprint6.Task2.V12
             this.Controls.Add(this.groupBoxOutput_SAH);
             this.Controls.Add(this.groupBoxInput_SAH);
             this.Controls.Add(this.groupBoxTask_SAH);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

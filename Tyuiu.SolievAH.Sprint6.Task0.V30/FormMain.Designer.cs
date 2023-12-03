@@ -162,6 +162,7 @@ namespace Tyuiu.SolievAH.Sprint6.Task0.V30
             this.Controls.Add(this.groupBoxInputData_SAH);
             this.Controls.Add(this.pictureBox_SAH);
             this.Controls.Add(this.groupBoxTask_SAH);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Спринт 6 | Таск 0 | Вариант 30 | Солиев А.Х.";
