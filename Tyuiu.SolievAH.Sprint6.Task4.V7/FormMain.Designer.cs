@@ -31,11 +31,14 @@ namespace Tyuiu.SolievAH.Sprint6.Task4.V7
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Title title2 = new System.Windows.Forms.DataVisualization.Charting.Title();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Title title1 = new System.Windows.Forms.DataVisualization.Charting.Title();
             this.panelTopSide_SAH = new System.Windows.Forms.Panel();
+            this.buttonDone_SAH = new System.Windows.Forms.Button();
+            this.buttonSave_SAH = new System.Windows.Forms.Button();
+            this.buttonHelp_SAH = new System.Windows.Forms.Button();
             this.groupBoxStep_SAH = new System.Windows.Forms.GroupBox();
             this.labelStopStep_SAH = new System.Windows.Forms.Label();
             this.labelStartStep_SAH = new System.Windows.Forms.Label();
@@ -45,13 +48,10 @@ namespace Tyuiu.SolievAH.Sprint6.Task4.V7
             this.textBoxTask_SAH = new System.Windows.Forms.TextBox();
             this.panelLeftSide_SAH = new System.Windows.Forms.Panel();
             this.groupBoxOutPut_SAH = new System.Windows.Forms.GroupBox();
+            this.textBoxResult_SAH = new System.Windows.Forms.TextBox();
             this.panelFill_SAH = new System.Windows.Forms.Panel();
             this.chartFunction_SAH = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.splitter1 = new System.Windows.Forms.Splitter();
-            this.buttonHelp_SAH = new System.Windows.Forms.Button();
-            this.buttonSave_SAH = new System.Windows.Forms.Button();
-            this.buttonDone_SAH = new System.Windows.Forms.Button();
-            this.textBoxResult_SAH = new System.Windows.Forms.TextBox();
             this.panelTopSide_SAH.SuspendLayout();
             this.groupBoxStep_SAH.SuspendLayout();
             this.groupBoxTask_SAH.SuspendLayout();
@@ -74,6 +74,39 @@ namespace Tyuiu.SolievAH.Sprint6.Task4.V7
             this.panelTopSide_SAH.Size = new System.Drawing.Size(1037, 100);
             this.panelTopSide_SAH.TabIndex = 0;
             // 
+            // buttonDone_SAH
+            // 
+            this.buttonDone_SAH.BackColor = System.Drawing.Color.Green;
+            this.buttonDone_SAH.Location = new System.Drawing.Point(779, 22);
+            this.buttonDone_SAH.Name = "buttonDone_SAH";
+            this.buttonDone_SAH.Size = new System.Drawing.Size(75, 61);
+            this.buttonDone_SAH.TabIndex = 7;
+            this.buttonDone_SAH.Text = "Выполнить";
+            this.buttonDone_SAH.UseVisualStyleBackColor = false;
+            this.buttonDone_SAH.Click += new System.EventHandler(this.buttonDone_SAH_Click);
+            // 
+            // buttonSave_SAH
+            // 
+            this.buttonSave_SAH.BackColor = System.Drawing.Color.RoyalBlue;
+            this.buttonSave_SAH.Location = new System.Drawing.Point(860, 22);
+            this.buttonSave_SAH.Name = "buttonSave_SAH";
+            this.buttonSave_SAH.Size = new System.Drawing.Size(75, 61);
+            this.buttonSave_SAH.TabIndex = 6;
+            this.buttonSave_SAH.Text = "Сохранить";
+            this.buttonSave_SAH.UseVisualStyleBackColor = false;
+            this.buttonSave_SAH.Click += new System.EventHandler(this.buttonSave_SAH_Click);
+            // 
+            // buttonHelp_SAH
+            // 
+            this.buttonHelp_SAH.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.buttonHelp_SAH.Location = new System.Drawing.Point(941, 22);
+            this.buttonHelp_SAH.Name = "buttonHelp_SAH";
+            this.buttonHelp_SAH.Size = new System.Drawing.Size(75, 61);
+            this.buttonHelp_SAH.TabIndex = 5;
+            this.buttonHelp_SAH.Text = "Справка";
+            this.buttonHelp_SAH.UseVisualStyleBackColor = false;
+            this.buttonHelp_SAH.Click += new System.EventHandler(this.buttonHelp_SAH_Click);
+            // 
             // groupBoxStep_SAH
             // 
             this.groupBoxStep_SAH.Controls.Add(this.labelStopStep_SAH);
@@ -85,7 +118,7 @@ namespace Tyuiu.SolievAH.Sprint6.Task4.V7
             this.groupBoxStep_SAH.Size = new System.Drawing.Size(232, 82);
             this.groupBoxStep_SAH.TabIndex = 4;
             this.groupBoxStep_SAH.TabStop = false;
-            this.groupBoxStep_SAH.Text = "b";
+            this.groupBoxStep_SAH.Text = "Ввод данных:";
             // 
             // labelStopStep_SAH
             // 
@@ -161,7 +194,16 @@ namespace Tyuiu.SolievAH.Sprint6.Task4.V7
             this.groupBoxOutPut_SAH.Size = new System.Drawing.Size(200, 437);
             this.groupBoxOutPut_SAH.TabIndex = 0;
             this.groupBoxOutPut_SAH.TabStop = false;
-            this.groupBoxOutPut_SAH.Text = "Вывод Данночки: ";
+            this.groupBoxOutPut_SAH.Text = "Вывод данных: ";
+            // 
+            // textBoxResult_SAH
+            // 
+            this.textBoxResult_SAH.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxResult_SAH.Location = new System.Drawing.Point(3, 16);
+            this.textBoxResult_SAH.Multiline = true;
+            this.textBoxResult_SAH.Name = "textBoxResult_SAH";
+            this.textBoxResult_SAH.Size = new System.Drawing.Size(194, 418);
+            this.textBoxResult_SAH.TabIndex = 0;
             // 
             // panelFill_SAH
             // 
@@ -175,27 +217,27 @@ namespace Tyuiu.SolievAH.Sprint6.Task4.V7
             // 
             // chartFunction_SAH
             // 
-            chartArea2.Name = "ChartArea1";
-            this.chartFunction_SAH.ChartAreas.Add(chartArea2);
+            chartArea1.Name = "ChartArea1";
+            this.chartFunction_SAH.ChartAreas.Add(chartArea1);
             this.chartFunction_SAH.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend2.Enabled = false;
-            legend2.Name = "Legend1";
-            this.chartFunction_SAH.Legends.Add(legend2);
+            legend1.Enabled = false;
+            legend1.Name = "Legend1";
+            this.chartFunction_SAH.Legends.Add(legend1);
             this.chartFunction_SAH.Location = new System.Drawing.Point(3, 0);
             this.chartFunction_SAH.Name = "chartFunction_SAH";
-            series2.ChartArea = "ChartArea1";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series2.Legend = "Legend1";
-            series2.Name = "Series1";
-            this.chartFunction_SAH.Series.Add(series2);
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.chartFunction_SAH.Series.Add(series1);
             this.chartFunction_SAH.Size = new System.Drawing.Size(834, 437);
             this.chartFunction_SAH.TabIndex = 1;
             this.chartFunction_SAH.Tag = "";
-            title2.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            title2.ForeColor = System.Drawing.Color.Navy;
-            title2.Name = "TitleCos";
-            title2.Text = "График фукнции cos(x)";
-            this.chartFunction_SAH.Titles.Add(title2);
+            title1.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            title1.ForeColor = System.Drawing.Color.Navy;
+            title1.Name = "TitleCos";
+            title1.Text = "График фукнции cos(x)";
+            this.chartFunction_SAH.Titles.Add(title1);
             // 
             // splitter1
             // 
@@ -204,48 +246,6 @@ namespace Tyuiu.SolievAH.Sprint6.Task4.V7
             this.splitter1.Size = new System.Drawing.Size(3, 437);
             this.splitter1.TabIndex = 0;
             this.splitter1.TabStop = false;
-            // 
-            // buttonHelp_SAH
-            // 
-            this.buttonHelp_SAH.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.buttonHelp_SAH.Location = new System.Drawing.Point(941, 22);
-            this.buttonHelp_SAH.Name = "buttonHelp_SAH";
-            this.buttonHelp_SAH.Size = new System.Drawing.Size(75, 61);
-            this.buttonHelp_SAH.TabIndex = 5;
-            this.buttonHelp_SAH.Text = "Справка";
-            this.buttonHelp_SAH.UseVisualStyleBackColor = false;
-            this.buttonHelp_SAH.Click += new System.EventHandler(this.buttonHelp_SAH_Click);
-            // 
-            // buttonSave_SAH
-            // 
-            this.buttonSave_SAH.BackColor = System.Drawing.Color.RoyalBlue;
-            this.buttonSave_SAH.Location = new System.Drawing.Point(860, 22);
-            this.buttonSave_SAH.Name = "buttonSave_SAH";
-            this.buttonSave_SAH.Size = new System.Drawing.Size(75, 61);
-            this.buttonSave_SAH.TabIndex = 6;
-            this.buttonSave_SAH.Text = "Сохранить";
-            this.buttonSave_SAH.UseVisualStyleBackColor = false;
-            this.buttonSave_SAH.Click += new System.EventHandler(this.buttonSave_SAH_Click);
-            // 
-            // buttonDone_SAH
-            // 
-            this.buttonDone_SAH.BackColor = System.Drawing.Color.Green;
-            this.buttonDone_SAH.Location = new System.Drawing.Point(779, 22);
-            this.buttonDone_SAH.Name = "buttonDone_SAH";
-            this.buttonDone_SAH.Size = new System.Drawing.Size(75, 61);
-            this.buttonDone_SAH.TabIndex = 7;
-            this.buttonDone_SAH.Text = "Выполнить";
-            this.buttonDone_SAH.UseVisualStyleBackColor = false;
-            this.buttonDone_SAH.Click += new System.EventHandler(this.buttonDone_SAH_Click);
-            // 
-            // textBoxResult_SAH
-            // 
-            this.textBoxResult_SAH.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBoxResult_SAH.Location = new System.Drawing.Point(3, 16);
-            this.textBoxResult_SAH.Multiline = true;
-            this.textBoxResult_SAH.Name = "textBoxResult_SAH";
-            this.textBoxResult_SAH.Size = new System.Drawing.Size(194, 418);
-            this.textBoxResult_SAH.TabIndex = 0;
             // 
             // FormMain
             // 
@@ -258,7 +258,7 @@ namespace Tyuiu.SolievAH.Sprint6.Task4.V7
             this.MinimumSize = new System.Drawing.Size(950, 450);
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Спринт 6 | Таск 4 | Вариант 7 | Солиев А.Х.";
             this.panelTopSide_SAH.ResumeLayout(false);
             this.groupBoxStep_SAH.ResumeLayout(false);
             this.groupBoxStep_SAH.PerformLayout();
