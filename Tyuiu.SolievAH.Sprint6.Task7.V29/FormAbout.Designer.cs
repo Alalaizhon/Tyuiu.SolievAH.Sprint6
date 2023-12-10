@@ -51,9 +51,9 @@ namespace Tyuiu.SolievAH.Sprint6.Task7.V29
             this.labelInfo_SAH.AutoSize = true;
             this.labelInfo_SAH.Location = new System.Drawing.Point(186, 9);
             this.labelInfo_SAH.Name = "labelInfo_SAH";
-            this.labelInfo_SAH.Size = new System.Drawing.Size(13, 13);
+            this.labelInfo_SAH.Size = new System.Drawing.Size(284, 156);
             this.labelInfo_SAH.TabIndex = 4;
-            this.labelInfo_SAH.Text = "2";
+            this.labelInfo_SAH.Text = resources.GetString("labelInfo_SAH.Text");
             // 
             // pictureBox1
             // 
